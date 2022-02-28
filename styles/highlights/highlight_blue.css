@@ -1,38 +1,31 @@
 /* Generating Color Pack*/
-/* line 8, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .color-highlight {
   color: #4A89DC !important;
 }
 
-/* line 9, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .bg-highlight {
   background-color: #4A89DC !important;
   color: #FFF !important;
 }
 
-/* line 10, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .border-highlight {
   border-color: #4A89DC !important;
 }
 
-/* line 11, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .gradient-highlight {
   background-image: linear-gradient(to bottom, #5D9CEC, #4A89DC) !important;
 }
 
-/* line 13, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .bg-fade-highlight-light {
   background-color: rgba(93, 156, 236, 0.3) !important;
   color: #FFF !important;
 }
 
-/* line 14, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .bg-fade-highlight-dark {
   background-color: rgba(74, 137, 220, 0.7) !important;
   color: #FFF !important;
 }
 
-/* line 18, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .footer-bar-2 .active-nav,
 .footer-bar-5 strong,
 .footer-bar-4 strong,
@@ -40,37 +33,29 @@
   background-color: #4A89DC !important;
 }
 
-/* line 22, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .footer-bar-1 .active-nav i,
 .footer-bar-1 .active-nav span,
 .footer-bar-3 .active-nav i {
   color: #4A89DC !important;
 }
 
-/* line 25, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .form-floating-over > .form-control:focus ~ label {
   color: #4A89DC;
 }
 
-/* line 26, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .form-floating-over > .form-control:not(:placeholder-shown) ~ label {
   color: #4A89DC;
 }
 
-/* line 27, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .form-floating-over > .form-select ~ label {
   color: #4A89DC;
 }
 
-/* line 28, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .color-highlight {
   color: #4A89DC;
 }
 
-/* line 29, ../xampp/htdocs/azure/codesigov/scss/highlights/highlight_blue.scss */
 .bg-highlight {
   background-color: #4A89DC;
   color: #FFF !important;
 }
-
-/*# sourceMappingURL=highlight_blue.css.map */

@@ -1,33 +1,3 @@
-.bg-search{
-    background-color: rgb(255 255 255 / 9%);
-}
-.bg-search input,
-.bg-search input::placeholder{
-    color: rgba(255, 255, 255, 0.644);
-    font-size: 17px !important;
-    font-weight:300;
-}
-
-
-
-.bg-search i {
-    color: #E43256;
-}
-.search-box .icon-search {
-    position: absolute;
-    left: 0px;
-    line-height: 40px;
-    padding: 0px 15px 0px 30px;
-    font-size:18px;
-}
-
-.header.sigov{
-    background: linear-gradient(to bottom right, #361928 0%, #141118 100%);
-}
-
-.header-logo-app a.header-title.mcustomsd {
-    margin-left: 30px !important;
-}
 
 .header.hcustom {
     background-color: transparent;
@@ -51,13 +21,17 @@ font-size:16px !important;
     border-bottom-right-radius: 25px;
     margin-left:8px;
     margin-right:8px;
-    /* border-top: 30px solid black !important; */
+}
+.sdcustom-small.header-card.shape-rounded {
+    border: none !important;
+    border-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left:8px;
+    margin-right:8px;
 }
 
-.bg-gradientsd {
-    background: linear-gradient(to bottom right, #361928 0%, #141118 100%);
-    /* border-top: 20px solid #10100f; */
-}
+
 
 .header.hcustom .header-title.mcustomsd {
     color: #ffffff !important;
@@ -69,10 +43,6 @@ font-size:16px !important;
     color: #E43256;
 }
 
-.search-boxsd {
-    margin-top: 75px !important;
-}
-
 .card-bottom.news {
     left: 17px;
     right: 17px;
@@ -80,6 +50,10 @@ font-size:16px !important;
 /* .header .header-title.mcustomsd {
     color: black !important;
 } */
+
+.bgsd-gradient {
+    background: linear-gradient(to bottom right, #361928 0%, #141118 100%);
+}
 
 .bgsd-black{
     background-color: black;
@@ -105,6 +79,18 @@ font-size:16px !important;
     background-color: #9B152F;
 }
 
+.bgsd-circleimg {
+    background-image: url("../images/asset/circle-transparent.png");
+    background-position:  200px -200px;
+    background-repeat: no-repeat;
+}
+.bgsd-circleimg-small {
+    background-image: url("../images/asset/circle-transparent-small.png");
+    background-position:  -75px -20px;
+    background-repeat: no-repeat;
+}
+
+
 .bgsdimg-1{
     background-image: url("../images/asset/Group\ 38.png");
 }
@@ -119,4 +105,35 @@ font-size:16px !important;
 
 .textsd-black{
     color: #000 !important;
+}
+
+.text-pinky {
+    color: #E43256;
+}
+
+.sdcustom-btnicon {
+    padding:5px 10px 5px 5px;
+    display:block !important;
+    padding-left: 80px !important;
+    overflow: hidden;
+    position: relative;
+    color:#ffffff;
+    border-radius:8px;
+    min-height: 70px;
+    margin-bottom:10px;
+}
+
+.sdcustom-btnicon span.icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 70px;
+    height: 100%;
+    color:#fff;
+    font-size: 20px;
+}
+.sdcustom-btnicon span.text {
+    line-height: 1.4em;
+    min-height: 60px;
+    font-size:16px
 }

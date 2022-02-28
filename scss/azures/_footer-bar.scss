@@ -56,40 +56,7 @@
 		font-size: 11px;
 	}
 }
-.footer-bar-2 {
-	.active-nav {
-		strong {
-			position: absolute;
-			width: 80px;
-			left: 50%;
-			transform: translateX(-50%);
-			top: 0px;
-			bottom: 0px;
-		}
-		color: #E33156 !important;
-	}
-}
-.footer-bar-4 {
-	.active-nav {
-		strong {
-			position: absolute;
-			width: 47px;
-			height: 47px;
-			border-radius: 60px;
-			left: 50%;
-			top: 50%;
-			transform: translate(-50%, -50%);
-			bottom: 0px;
-		}
-		color: $color-white !important;
-	}
-	span {
-		display: none !important;
-	}
-	i {
-		padding-top: 10px;
-	}
-}
+
 .footer-bar-5 {
 	.active-nav {
 		strong {
@@ -105,20 +72,7 @@
 		}
 	}
 }
-.footer-bar-3 {
-	span {
-		display: none !important;
-	}
-	.active-nav {
-		span {
-			display: block !important;
-		}
-		padding-top: 11px !important;
-	}
-	a {
-		padding-top: 18px !important;
-	}
-}
+
 .footer-menu-hidden {
 	transition: all 100ms ease;
 	transform: translateY(100%) !important;
