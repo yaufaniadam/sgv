@@ -295,7 +295,8 @@ figure {
 
 img,
 svg {
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  text-align: right;
 }
 
 table {
@@ -14622,7 +14623,7 @@ button {
   background-size: cover;
   border: 0px !important;
   max-height: 150000px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   background-position: center center !important;
 }
 
@@ -14639,7 +14640,7 @@ button {
   margin: 0px 15px 30px 15px;
   border-radius: 20px;
   border: none;
-  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .card-style .card-body {

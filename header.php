@@ -28,7 +28,7 @@
     </style>
 </head>
 
-<body class="theme-light" data-highlight="highlight-pink2">
+<body class="theme-light bgsd-white" data-highlight="highlight-pink2">
 
     <div id="preloader">
         <div class="spinner-border color-highlight" role="status"></div>

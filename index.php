@@ -52,7 +52,7 @@
     }
 </style>
 
-<div class=" page-title mb-5">
+<div class="page-title mb-5">
 
     <div class="page-title page-title-small d-flex justify-content-between">
         <h2 class="font-18 font-300">Hi, Folta!</h2>
