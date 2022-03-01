@@ -24,15 +24,11 @@
         width: 100%;
         max-width: 80px;
     }
-.loginsd .input-style input, .loginsd .input-style select, .loginsd .input-style textarea{
-    height: 30px;
-    font-size: 14px;
-}
 </style>
 
 
-<div class="bgsd-white loginsd">
-    <div class="igovclass bgsd-gradient">
+<div class="bgsd-white">
+    <div class="igovclass bgsd-dark-red">
         <div class="logo-atas mb-4">
             <img src="./images/asset/Igove Logo.png" >
         </div>
@@ -56,13 +52,13 @@
             <div class="input-style no-borders has-icon validate-field mb-4">
                 <i class="fa fa-lock"></i>
                 <input type="password" class="form-control validate-password" id="form3a" placeholder="Password">
-                <label for="form3a" class="color-blue-dark font-10 mt-0">Password</label>
+                <label for="form3a" class="color-blue-dark font-10 mt-1">Password</label>
                 <i class="fa fa-times disabled invalid color-red-dark"></i>
                 <i class="fa fa-check disabled valid color-green-dark"></i>
                 <em>(required)</em>
             </div>
 
-            <a href="#" class="btn btn-s mt-2 mb-4 mx-4 btn-full bgsd-pink rounded-m text-uppercase font-900">Login</a>
+            <a href="#" class="btn btn-m mt-2 mb-4 btn-full bg-green-dark rounded-sm text-uppercase font-900">Login</a>
 
 
 

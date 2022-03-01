@@ -15750,10 +15750,10 @@ button:active {
 .input-style input,
 .input-style select,
 .input-style textarea {
-  font-size: 12px;
+  font-size: 14px !important;
   width: 100%;
   line-height: 45px;
-  height: 45px;
+  height: 30px;
   border-top-width: 0px;
   border-right-width: 0px;
   border-left-width: 0px;
