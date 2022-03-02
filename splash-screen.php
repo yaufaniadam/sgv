@@ -1,72 +1,63 @@
 <?php include('header.php'); ?>
 
 <style>
-    .igovclass {
-        height: 250px;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        padding: 15px;
+    .splash-page {
+        height: 100%;
+        background-color: red;
+        position: fixed;
+        width: 100%;
+    }
+
+    .top-splash {
+        height: 180px;
+        padding: 25px;
         text-align: center;
         color: white;
+        margin-bottom: -25%;
     }
 
-    .igovclass p{
-        color: white;
+    .bottom-splash {
+        border-top-left-radius: 200px 150px;
+        border-top-right-radius: 200px 150px;
+        height: 80%;
+        z-index: 9999;
+        padding-top: 30%;
+        background: #fff url("./images/asset/ornamen-igov.png") bottom right no-repeat;
+    }
+
+    .bottom-splash span img {
+        max-width: 75px;
+        margin-bottom: -20px;
+        margin-left: -10px;
+    }
+
+    .bottom-splash p {
         font-size: 16px;
-        line-height: 16px;
     }
 
-    .logo-atas{
-        text-align: right !important;
-    }
 
-    .logo-atas img{
-        width: 100%;
-        max-width: 80px;
+    .logo-splash img {
+        max-width: 60%;
+        text-align: center;
+        margin-bottom: -20%;
+
     }
 </style>
 
 
-<div class="bgsd-white">
-    <div class="igovclass bgsd-dark-red">
-        <div class="logo-atas mb-4">
-            <img src="./images/asset/Igove Logo.png" >
+<div class="bgsd-gradient splash-page">
+    <div class="top-splash">
+        <div class="splash-logo">
+            <img src="./images/asset/Igove Logo.png">
         </div>
-        
-       
-        <img src="./images/asset/IGOV-merah.png">
-        <p>Students Information Service<br><b>IGOV</b></p>
-
     </div>
-    <div class="card card-style m-0 rounded-0 p-3">
-        <div class="content mt-2 mb-0">
-            <div class="input-style no-borders has-icon validate-field mb-4">
-                <i class="fa fa-user"></i>
-                <input type="name" class="form-control validate-name" id="form1a" placeholder="Name">
-                <label for="form1a" class="color-blue-dark font-10 mt-1">Name</label>
-                <i class="fa fa-times disabled invalid color-red-dark"></i>
-                <i class="fa fa-check disabled valid color-green-dark"></i>
-                <em>(required)</em>
-            </div>
+    <div class="logo-splash text-center">
+        <img src="./images/asset/Logo-Splash.png">
+    </div>
+    <div class="bottom-splash  text-center">
+        <p>Welcome To<span><img src="./images/asset/IGOV-merah.png"></span><br>Students Information Service <b>IGOV</b></p>
 
-            <div class="input-style no-borders has-icon validate-field mb-4">
-                <i class="fa fa-lock"></i>
-                <input type="password" class="form-control validate-password" id="form3a" placeholder="Password">
-                <label for="form3a" class="color-blue-dark font-10 mt-1">Password</label>
-                <i class="fa fa-times disabled invalid color-red-dark"></i>
-                <i class="fa fa-check disabled valid color-green-dark"></i>
-                <em>(required)</em>
-            </div>
-
-            <a href="#" class="btn btn-m mt-2 mb-4 btn-full bg-green-dark rounded-sm text-uppercase font-900">Login</a>
-
-
-
-            <div class=".d-flex text-center">
-                <div class="font-11 pb-2 color-theme opacity-60 pb-3"><a href="#" class="color-theme">Need Help?</a></div>
-                <!-- <div class="w-50 font-11 pb-2 color-theme opacity-60 pb-3 text-end"><a href="#" class="color-theme">Forgot Credentials</a></div> -->
-            </div>
-        </div>
+        <div class="font-12 mt-4 pt-4">igov.umy.ac.id</div>
 
     </div>
 </div>
