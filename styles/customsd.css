@@ -21,6 +21,7 @@ font-size:16px !important;
     border-bottom-right-radius: 25px;
     margin-left:8px;
     margin-right:8px;
+    background: linear-gradient(to bottom right, #361928 0%, #141118 100%);
 }
 .sdcustom-small.header-card.shape-rounded {
     border: none !important;

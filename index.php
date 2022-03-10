@@ -97,7 +97,7 @@
 
 <div class="content mb-2">
     <h5 class="float-start font-16 font-500"><b>SIGOV</b> Services</h5>
-    
+    <div class="clearfix"></div>
 </div>
 
 <div class="row p-4 pt-0 pb-0">
